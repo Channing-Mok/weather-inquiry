@@ -1,0 +1,97 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	font-family: "微软雅黑";
+}
+#wrap{
+	width:1000px;
+	margin:0 auto;
+	text-align: center;
+}
+/*search bar*/
+#search_bar{
+	margin-top:50px;
+	position: relative;
+}
+#search_bar #city_name{
+	width:300px;
+	height:30px;
+	text-indent: 1em;
+	vertical-align: bottom;
+	border:2px solid #06E5C2;
+	border-radius: 5px;
+	outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	color:#05ACCC;
+
+}
+#search_bar #n_btn{
+	height:30px;
+	padding:5px;
+	border:2px solid #06E5C2;
+	border-radius: 5px;
+	font-size: 18px;
+	color:#fff;
+	background: #06E5C2;
+
+}
+#search_bar #tip{
+	position: absolute;
+	margin-left:5px;
+	margin-top:10px;
+	font-size: 15px;
+	color:#FA7B15;
+}
+/*today*/
+#today{
+	margin-top:50px;
+}
+#today h3{
+	color:#06E5C2;
+}
+#today p{
+	margin-bottom: 10px;
+}
+/*future*/
+#future{
+	margin-top:50px;
+}
+#future h3{
+	color:#06E5C2;
+}
+#future h5{
+	color:#04D3DD;
+}
+#future p{
+	margin-bottom: 10px;
+}
+#future img{
+	width:50px;
+	height:50px;
+}
+#future_data{
+	display: table;
+	margin-left: 30px;
+	border-spacing: 30px;
+	border-collapse: separate;
+	
+}
+#future_data div{
+	display: table-cell;
+	text-align: left;
+	vertical-align: bottom;
+	border-right:2px solid #04D3DD ;
+}
+/*footer*/
+footer{
+	width:100%;
+	position: fixed;
+	left:0;
+	bottom: 0;
+	text-align: center;
+	font-size: 15px;
+	background: #CCFCEF;
+}
