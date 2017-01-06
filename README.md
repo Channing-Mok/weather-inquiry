@@ -1,2 +1,16 @@
-# weather-inquiry
-weather inquiry system 
+# 城市天气查询 #
+
+## 功能
+目前仅支持**国内城市** 的天气**即时查询和三天内** 天气预报查询，即时天气大概每一小时更新一次。
+![1](http://p1.bqimg.com/4851/f73c21ed8df20eb7.jpg)
+输入城市名称即可,**拼音**也能识别
+
+### 即时天气查询
+![2](http://p1.bqimg.com/4851/479498e25cdf90b4.jpg)
+
+### 三天内天气查询
+
+![3](http://p1.bqimg.com/4851/a79469a60d4f0d77.jpg)
+
+### 输入城市名有误智能提示
+![](http://p1.bqimg.com/4851/a360324ee059944e.jpg)
